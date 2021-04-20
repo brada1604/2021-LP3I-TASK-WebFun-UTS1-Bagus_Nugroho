@@ -1,0 +1,21 @@
+body {
+	font-family: 'Kalam', cursive;
+}
+
+.banner {
+	background: url(../../img/bg.jpg) ;
+	min-height: calc(100vh - 56px); /* 100% view high dikurangi 56 pixel tinggi header*/
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.text-block {
+	position: absolute;
+	/* bottom: 200px;*/
+	/* right: 65%;*/
+	background:rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	color: white;
+}
